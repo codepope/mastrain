@@ -1,6 +1,6 @@
 # mastrain
 
-Extracts Mastodon bookmarks and puts them into the mastrain folder* in Raindrop.
+Extracts Mastodon bookmarks and puts them into the unsorted folder in Raindrop.
 
 Automatically eliminates bookmarks that are already copied over.
 
