@@ -40,7 +40,8 @@ type Raindrop struct {
 	Excerpt string `json:"excerpt"`
 	// Link defines the bookmark's link.
 	// Link is better to be set via parsedURL.meta.canonical.
-	Link string `json:"link"`
+	Link string   `json:"link"`
+	Tags []string `json:"tags"`
 	// CollectionID defines in which collection the raindrop will save the bookmark.
 	CollectionID int64 `json:"collectionId"`
 }
@@ -56,7 +57,8 @@ type ParsedURL struct {
 		Excerpt string `json:"excerpt"`
 		// Meta defines the metadata of the item
 		Meta struct {
-			Canonical string `json:"canonical"`
+			Canonical string   `json:"canonical"`
+			Tags      []string `json:"tags"`
 		} `json:"meta"`
 	} `json:"item"`
 }
