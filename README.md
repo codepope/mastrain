@@ -15,11 +15,11 @@ RAINDROP_SERVER="https://api.raindrop.io/rest/v1/"
 RAINDROP_APP_TOKEN=""
 ```
 
-Run with:
+Run from source with:
 
 `go run .`
 
-for now. Better deployment coming soon.
+Or download a binary from the releases. You still need to make a .env file.
 
-\* considering moving to dropping them into unsorted. Change my mind.
+
 
